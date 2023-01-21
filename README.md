@@ -60,29 +60,21 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Bike Rental Back End <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Bike Rental Available 24/7. Allow users to Rent your nextbike anytime in either of our available cities. Rent up to four bikes at once on one account via the App.
 
-**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
+> Ruby on Rails, a full-stack framework. It ships with all the tools needed to build amazing web apps on both the front and back end. Rendering HTML templates, updating etc
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
 </details>
 
@@ -99,19 +91,28 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Sign In**
+- **Add Bikes**
+- **Get Bikes**
+- **Removes Bikes**
+- **Reserve Bikes**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## API Documentation
+
+-[Here](https://book-appoint.onrender.com/api-docs/index.html)
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- [Live Demo Link](https://book-appoint.onrender.com/api/v1/bikes)
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+## 🚀 Front End Repo <a name="live-demo"></a>
+
+
+- [Here](https://github.com/samiullah997/book_an_appointment_front_end)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,75 +128,52 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
 
 ```sh
  gem install rails
 ```
- -->
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
 
 ```sh
   cd my-project
   gem install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
 
 ```sh
   rails server
 ```
---->
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
+
 Example command:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  rspec ./spec/models/
 ```
---->
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,17 +183,23 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Alusine Jalloh**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Alusp](https://github.com/Alusp)
+- LinkedIn: [@alusine-jalloh](https://www.linkedin.com/in/alusine-jalloh)
+- Twitter: [@aseni_jalloh](https://twitter.com/aseni_jalloh)
 
-👤 **Author2**
+👤 **Sami Ullah**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@samiullah997](https://github.com/samiullah997)
+- Twitter: [@samiullahk997](https://twitter.com/samiullahk997)
+- LinkedIn: [Samiullah Khan](https://www.linkedin.com/in/samiullah-khan-2702b7171/)
+
+👤 **Alfred Kinyua**
+
+- GitHub: [@AlfredKInyua](https://github.com/Alfred-KInyua)
+- Twitter: [@alfkinyua](https://twitter.com/alfkinyua)
+- LinkedIn: [@AlfredKInyua](https://www.linkedin.com/in/alfred-kinyua/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,9 +209,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Payment Feature**
+- [ ] **Book date and Return Date**
+- [ ] **GPS Trackers**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,9 +239,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> The design is provided by Murat Korkmaz on Behance.
 
-I would like to thank...
+I would like to thank Microverse for inspiring this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,8 +265,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
