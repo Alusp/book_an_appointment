@@ -18,7 +18,7 @@ class Api::V1::BikesController < ApplicationController
     @bike = Bike.create(bike_params)
 
     if @bike.save!
-      render json: @bike
+      render json: { message: 'Bike Created Successfully' }, status: :created
     else
       render json: @bike.errors, status: :unprocessable_entity
     end
