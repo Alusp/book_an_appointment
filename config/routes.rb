@@ -8,9 +8,9 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api do
     namespace :v1 do
-      resources :reservations
-      resources :bikes
-      resources :users
+      resources :reservations, except: [:update, :edit]
+      resources :bikes, except: :edit
+      resources :users, except: [:update, :edit]
     end
   end
 end

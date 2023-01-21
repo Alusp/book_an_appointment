@@ -16,10 +16,10 @@ RSpec.describe Reservation, type: :model do
 
   it 'is not valid without a bike_id' do
     reservation = Reservation.new(valid_attributes.except(:bike_id))
-    expect(reservation).to be_valid
+    expect(reservation).not_to be_valid
   end
   it 'is not valid without a user_id' do
     reservation = Reservation.new(valid_attributes.except(:user_id))
-    expect(reservation).to be_valid
+    expect(reservation).not_to be_valid
   end
 end
