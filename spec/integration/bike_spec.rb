@@ -22,7 +22,7 @@ describe 'Bike API' do
       response '201', 'Bike Created Successfully' do
         let(:user) { User.create(name: 'name', email: 'all@email1.com', password: 'password') }
         let(:bike) do
-          { name: 'AlusiA', bike_image: "https://imgd.aeplcdn.com/", bike_type: 'HNDA', description: 'Tption', brand: 'This Brand', daily_rate: '2000', user_id: user.id }
+          { name: 'AlusiA', bike_image: 'https://imgd.aeplcdn.com/', bike_type: 'HNDA', description: 'Tption', brand: 'This Brand', daily_rate: '2000', user_id: user.id }
         end
         run_test!
       end
