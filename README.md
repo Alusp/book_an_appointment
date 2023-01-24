@@ -101,7 +101,7 @@ After you're finished please remove all the comments and instructions!
 
 ## API Documentation
 
--[Here](https://book-appoint.onrender.com/api-docs/index.html)
+- [Here](https://book-appoint.onrender.com/api-docs/index.html)
 
 <!-- LIVE DEMO -->
 
