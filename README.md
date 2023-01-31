@@ -141,7 +141,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Alusp/book_an_appointment_back_end
 ```
 
 ### Install
